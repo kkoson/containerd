@@ -38,6 +38,9 @@ make binaries
 
 # Run tests
 make test
+
+# Run a specific test package (useful during development)
+go test ./snapshots/... -v
 ```
 
 ### Installation
