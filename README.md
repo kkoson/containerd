@@ -89,8 +89,4 @@ This project is a fork of the original [containerd/containerd](https://github.co
 
 ## Personal Notes
 
-> **Note:** I'm using this fork to explore snapshotter internals and experiment with the overlayfs snapshotter.
->
-> **Useful refs:**
-> - [overlayfs kernel docs](https://www.kernel.org/doc/html/latest/filesystems/overlayfs.html)
-> - `snapshots/overlay/overlay.go` is the main entry point for the overlayfs snapshotter implementation
+> **Note:** I'm using this fork for learning about container runtimes and experimenting with the overlayfs snapshotter. My main areas of interest are the snapshot subsystem and the gRPC API surface. Not intended for production use.
