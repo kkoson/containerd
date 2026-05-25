@@ -41,6 +41,9 @@ make test
 
 # Run a specific test package (useful during development)
 go test ./snapshots/... -v
+
+# Run integration tests (requires root)
+sudo make integration
 ```
 
 ### Installation
@@ -80,3 +83,7 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 ## Acknowledgments
 
 This project is a fork of the original [containerd/containerd](https://github.com/containerd/containerd) project, maintained by the containerd authors and contributors.
+
+## Personal Notes
+
+> **Note:** I'm using this fork to explore snapshotter internals and experiment with the overlayfs snapshotter. Changes here are for learning purposes and are not intended for production use.
