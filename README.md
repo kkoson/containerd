@@ -89,4 +89,4 @@ This project is a fork of the original [containerd/containerd](https://github.co
 
 ## Personal Notes
 
-> **Note:** I'm using this fork for learning about container runtimes and experimenting with the overlayfs snapshotter. My main areas of interest are the snapshot subsystem and the gRPC API surface. Not intended for production use.
+> **Note:** I'm using this fork to study the snapshotter internals, particularly the overlayfs implementation. My main areas of interest are the differ interface and how layer diffs are applied during image pulls.
