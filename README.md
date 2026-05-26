@@ -89,4 +89,4 @@ This project is a fork of the original [containerd/containerd](https://github.co
 
 ## Personal Notes
 
-> **Note:** I'm using this fork to study the snapshotter internals, particularly the overlayfs implementation. My main areas of interest are the differ interface and how layer diffs are applied during image pulls.
+> **Note:** I'm using this fork to learn how the snapshotter subsystem works, particularly the overlayfs implementation. My main area of interest is understanding how layer diffs are computed and applied during image pulls.
